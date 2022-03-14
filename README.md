@@ -17,7 +17,7 @@ If the wheelslip of the left- and rightrear wheel is over the set value the give
 I used "Angelo234"'s code from https://www.beamng.com/threads/outgauge-support-specifications.82507/ as basis
 
 What gamedata is sent is specified in the outgauge.lua file under `...\steamapps\common\BeamNG.drive\lua\vehicle\extensions`
-To detect drifting I used BeamNGs `wheelslip` variable (0 = perfekt traction, higher more slipping).
+To detect drifting I used BeamNGs `wheelslip` variable (0 = perfect traction, higher more slipping).
 
 Following command returns the wheelslip value of the rearleft wheel:
 `wheels.wheelRotators[2].lastSlip`
@@ -31,25 +31,25 @@ Settings are saved and modified in the config.ini file.
 ## Installation (Win10):
 
 Requirements:
-...BeamNG.drive
-Python 3
-VLC MediaPlayer
+- ...BeamNG.drive
+- Python 3
+- VLC MediaPlayer
 
 Either clone the repo via an IDE (better for troubleshooting) or execute the script in cmd (here explained)
 
 Download the repo as zip and unzip it.
-Go to `...\steamapps\common\BeamNG.drive\lua\vehicle\extensions` and replace the outgauge.lua file with the outgauge.lua file in the repo
+Go to `...\steamapps\common\BeamNG.drive\lua\vehicle\extensions` and replace the outgauge.lua file with the outgauge.lua file in the repo.
 
-Open the config.ini via a editor and insert the filepath to your desired mp3 file:
+Open the config.ini via a editor and insert the filepath to your desired mp3 file.
 Example: C:\Users\Usr\Desktop\TokyoDrift.mp3
 
-Open cmd and navigate to the unzipped folder
+Open cmd and navigate to the unzipped folder.
 Install the required packages using:
 `pip install -r requirements.txt`
 
-Start BeamNG and turn on Outgauge Support in the settings
+Start BeamNG and turn on Outgauge Support in the settings.
 The default ip: 127.0.0.1 port: 4444
-Then load into a session
+Then load into a session.
 
 Run `main.py` in the folder via cmd using:
 `python main.py`
