@@ -8,6 +8,8 @@ If someone wants to make a real BeamNG mod out of it feel free to do it!
 
 This script can break if the BeamNG.drive devs change the lua commands or the outgauge.lua file is updated/changed
 
+Please beware this is my first public project...
+
 ## How it works:
 
 This script uses BeamNGs outgauge support (normally used to integrate physical gauges with BeamNG)
