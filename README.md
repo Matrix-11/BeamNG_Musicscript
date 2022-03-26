@@ -65,13 +65,14 @@ Settings are explained in the config.ini
 
 - Make sure you have python 3 and VLC Mediaplayer installed. Both 32/64bit according to your system
 
-- Double check the path to your mp3 file
+- Program running, Volume increasing but no song playing: 
+Double check the path to your mp3 file
 
 - UDP Socket timeout:
-IP adress and Port number match with config.ini and BeamNG options
+IP adress and Port number have to match in config.ini and BeamNG options
 
 - Timeout while lag/new vehicle loading:
-Increase timeouttime in config.ini
+Increase `timeouttime` in config.ini
 
 - Song not looping:
 In order to loop the song the programm checks the songs progress (float 0-1)
